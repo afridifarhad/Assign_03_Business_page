@@ -6,7 +6,6 @@
   }
 
   body {
-      /* background-color: rgb(78, 75, 75); */
       background-color: rgb(14, 13, 13);
       opacity: .9;
   }
@@ -52,7 +51,7 @@
 
   .backimg {
       width: 100%;
-      height: 500px;
+      height: 600px;
       opacity: .9;
   }
 
@@ -70,23 +69,24 @@
       width: 160px;
       height: 60px;
       color: white;
-      background-color: rgb(230, 73, 0);
+      background-color: red;
       cursor: pointer;
+      border-radius: 7px;
   }
 
   .btn:hover {
-      background-color: rgb(243, 3, 3);
+      background-color: rgb(210, 73, 0);
       color: black;
   }
 
   .boxes {
-
       color: #fff;
       width: 1400px;
       height: 700px;
-      margin-left: 5%;
-      /* border: 2px solid white; */
+      margin-left: 5%;      
+     
   }
+
 
   .boxes h1 {
       text-align: center;
@@ -95,6 +95,7 @@
   }
 
   .boxes img {
+    margin-top: 100px;
       width: 400px;
       height: 300px;
       opacity: .9;
@@ -108,11 +109,6 @@
       position: absolute;
       top: 640px;
       color: #817979;
-  }
-
-  .img1:hover {
-      opacity: .5;
-      cursor: pointer;
   }
 
   .text-img {
@@ -137,11 +133,6 @@
       color: #817979;
   }
 
-  .img2:hover {
-      opacity: .5;
-      cursor: pointer;
-  }
-
   /* ////////////image 3//////////// */
   .img3 {
       position: absolute;
@@ -151,11 +142,6 @@
       height: 500px;
 
       color: #817979;
-  }
-
-  .img3:hover {
-      opacity: .5;
-      cursor: pointer;
   }
 
   .last-para {
@@ -170,6 +156,21 @@
       font-size: 16px;
       cursor: pointer;
   }
+  .enroll-btn{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+  }
+  .enroll-btn:hover{
+    background-color: rgb(210, 73, 0);
+    cursor: pointer;
+    color: black;
+  }
 
   /* //////////////////////////////////////////  About  /////////////////////////////////////////////// */
 
@@ -180,7 +181,7 @@
 
   .about-img {
       width: 100%;
-      height: 450px;
+      height: 600px;
       opacity: .6;
   }
 
@@ -237,11 +238,6 @@
 
   }
 
-  .mg1:hover {
-      opacity: .6;
-      cursor: pointer;
-  }
-
   .mg1 h2 {
       width: 400px;
   }
@@ -261,11 +257,7 @@
       margin-left: 220px;
       padding: 20px;
       opacity: .9;
-  }
-
-  .mg2:hover {
-      opacity: .6;
-      cursor: pointer;
+      
   }
 
   .mg2 h2 {
@@ -274,9 +266,11 @@
 
   .mg2 p {
       width: 200px;
+     
       font-size: 12px;
       color: rgb(210, 73, 0);
       font-weight: bold;
+   
   }
 
   .about-icon i {
@@ -284,6 +278,19 @@
       padding: 4px;
       font-size: 16px;
       cursor: pointer;
+  }
+  .sub-btn{
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+  }
+  .sub-btn:hover{
+    background-color: rgb(210, 73, 0);
+    color: black;
+    cursor: pointer;
   }
 
   /*///////////////////////////////////////////////  SERVICES  ////////////////////////////////////////////////////// */
@@ -302,7 +309,7 @@
 
   .service-img {
       width: 100%;
-      height: 450px;
+      height: 600px;
   }
 
   .service-text li {
@@ -353,7 +360,7 @@
       cursor: pointer;
   }
 
-  /* /////////////////////////////// contack/////////////////////////////////// */
+  /* /////////////////////////////// contact/////////////////////////////////// */
 
   .contack-text {
       font-size: 30px;
@@ -407,13 +414,14 @@
       width: 200px;
       height: 50px;
       cursor: pointer;
-      background-color: rgb(210, 73, 0);
+      background-color: red;
       color: #ffffff;
       border: 2px solid black;
+      border-radius: 7px;
   }
 
   .contack-btn:hover {
-      background-color: rgb(247, 33, 5);
+      background-color: rgb(210, 73, 0);
       color: black;
   }
 
@@ -431,3 +439,15 @@
       height: 100px;
       color: #fff;
   }
+
+
+  .contact-info{
+    text-align: center;
+    padding: 12px;
+   margin-left: 8%;
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    margin-top: 50px;
+  }
+  

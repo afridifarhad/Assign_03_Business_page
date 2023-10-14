@@ -12,3 +12,6 @@ for (var i = 0; i < navLinks.length; i++) {
         break; // Exit the loop once a match is found
     }
 }
+
+
+
